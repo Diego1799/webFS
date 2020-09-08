@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head> 
+    <title>Registrarse</title> 
+    <meta charset="utf-8" />
+<meta name="viewport"content="width=device-width initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet"href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body id="body-registro">
+    <nav class="navbar navbar-inverse navbar-static-top" >
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="principal.html"> <img id="logo" src="https://cdn.publish0x.com/prod/fs/images/6ac0ff5feb2e723eaa18dace82b96ab9aca5ed93038ad2d739f3d58132cc3bed.png" alt="Logo" ></a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="#">Noticias</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Información de juego <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                          <li><a href="#">Agentes</a></li>
+                          <li role="separator" class="divider"></li>
+                          <li><a href="#">Armas</a></li>
+                          <li role="separator" class="divider"></li>
+                          <li><a href="#">Mapas</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Pase De Batalla</a></li>
+                    <li><a href="acercade.html">Acerca De</a></li>
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
+    <br><br><br><br>
+        <form>
+            <h1 id="titulo-registro">Registrate</h1> 
+    
+            <label>Usuario*</label>
+            <input placeholder="User" required="true" value="" type="text">
+    
+            <label>Contraseña*</label>
+            <input placeholder="Contraseña" required="true" value="" type="password">
+    
+            <label>Confirmar Contraseña*</label>
+            <input placeholder="Confirmar Contraseña" required="true" value="" type="password">
+    
+            <label>Correo Electronico*</label>
+            <input placeholder="Email" required="true" value="" type="email">
+            
+            <label>Fecha De Nacimiento*</label>
+            <input type="date" required="true">
+            <br>
+            <div class="b">
+                <button id="boton-registrar" type="submit">Terminar Registro</button>
+            </div>
+            <hr style="border-width: 3px; border-color: gray;">
+            <h6 id="condiciones">Al inscribirte, confirmas haber leído, comprendido y aceptado las Condiciones Generales de Uso y la Política de confidencialidad, así como haber sido informado de tu derecho a la información.</h6>
+        </form>
+        <br><br><br><br><br>
+    <footer class="footer">
+        <div class="logo-footer">
+            <img src="https://cdn.freelogovectors.net/wp-content/uploads/2020/01/riot-games-logo.png" alt="" width="200px" height="200px">
+        </div>
+        <div class="redes">
+            <a href="https://twitter.com/riotgames"><img src="https://cdn.icon-icons.com/icons2/1129/PNG/512/twitterlogoincircularblackbutton_79784.png" alt="" id="twitter" width="40px" height="40px"></a>
+            <a href="https://www.instagram.com/riotgames/"><img src="https://cdn.icon-icons.com/icons2/693/PNG/512/Facebook_Rounded_Solid_icon-icons.com_61562.png" alt="" id="fb" width="50px" height="50px"></a>
+            <a href="https://www.facebook.com/RiotGames/"><img src="https://cdn.icon-icons.com/icons2/1558/PNG/512/353424-instagram-logo_107474.png" alt="" id="instagram" width="50px" height="50px"></a>
+        </div>
+        <div > 
+            © 2020 Riot Games, Inc. Riot Games, VALORANT y cualquier logo asociado son marcas, marcas de servicio o marcas registradas de Riot Games, Inc.    
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,272 @@
+#body-principal{
+        background-image: url(https://wallpapercave.com/wp/wp6202031.png);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        margin: 0;
+        padding: 0;
+        background-size: cover;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;    
+        background-position: center;
+}
+
+
+#boton-jugar{
+    background-color: #ff4655;
+    color: white;
+    width: 250px;
+    height: 50px;
+    border-radius: 50px;
+    border-color: white;
+    font-size: 25px;
+    position: relative;
+    left: 17%;
+}
+
+#logo{
+    height: 45px;
+    width: 90px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: -55%;
+    
+}
+
+#boton-iniciar{
+    background-color: #ff4655;
+    color: white;
+    width: 150px;
+    height: 35px;
+    border-radius: 50px;
+    border-color: white;
+    font-size: 15px;
+    
+}
+
+
+#titulo{
+    text-align: center;
+    color: white;
+    font-size: 60px;
+}
+
+#titulo-gameplay{
+    color: white;
+}
+
+#imagen1{
+    margin: 15px;
+    padding: 0;
+    height: 380px;
+    max-width: 100%;
+    position: relative;
+    border-radius: 50px;
+    text-align: center;
+}
+
+#imagen2{
+    margin: 15px;
+    padding: 0;
+    height: 380px;
+    max-width: 100%;
+    position: relative;
+    border-radius: 50px;
+    text-align: center;
+}
+#imagen3{
+    margin: 15px;
+    padding: 0;
+    height: 380px;
+    max-width: 100%;
+    position: relative;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.contenedor-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#panel1{
+    width: 500px;
+    margin: 30px;
+    border-radius: 25px;
+    background-color: papayawhip;
+    border: none;
+}
+
+#panel2{
+    width: 500px;
+    margin: 30px;
+    border-radius: 25px;
+    background-color: papayawhip;
+    border: none;
+}
+
+#panel1 h1{
+    font-size: 20px;
+    text-align: center;
+}
+
+#panel1 p{
+    font-size: 12px;
+    text-align: left;
+}
+
+#panel2 h1{
+    font-size: 20px;
+    text-align: center;
+}
+
+#panel2 p{
+    font-size: 12px;
+    text-align: left;
+}
+
+.footer{
+    background-color: #ff4655;
+    color: black;
+    text-align: center;
+    position: relative; 
+    bottom: 0px;
+    width: 100%;
+}
+
+/*Css pagina de registro */
+
+form{
+    margin: auto;
+    width: 50%;
+    max-width: 500px;
+    background-color: black;
+    padding: 30px;
+}
+
+#titulo-registro{
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;   
+}
+
+form label {
+        margin: 0;
+        padding: 0;
+        font-weight: bold;
+        display: block;
+        color: white;
+}
+
+form input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+form input[type="text"],
+form input[type="password"] {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: white;
+}
+
+#condiciones{
+    text-align: center;
+    color: white;
+}
+
+form input[type="date"] {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #7e7e7c;
+}
+
+form input[type="email"] {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    background-color: white;
+    border-radius: 25%;
+}
+
+.b{
+    display: flex;
+    justify-content: center;
+}
+
+#body-registro{
+    background-image: url(https://wallpaperarc.com/wp-content/uploads/2020/04/Viper-Valorant-Full-HD-Wallpaper-1920x1080-17.jpg);
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    height: 100vh;
+    font-family: sans-serif;
+    padding-bottom: 70px;
+}
+
+#boton-registrar{
+    background-color: #ff4655;
+    color: white;
+    width: 250px;
+    height: 50px;
+    border-radius: 50px;
+    border-color: white;
+    font-size: 25px;
+    position: relative;
+}
+
+#condiciones{
+    text-align: center;
+    color: white;
+}
+
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    background-color: white;
+    border-radius: 25%;
+}
+
+/*Css pagina acerca de */
+#body-acercade{
+    background-color: #FEEFE2;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+    background-position: center;
+}
+
+body h1{
+    text-align: center;
+}
+
+#panel-acerca{
+    width: 500px;
+    margin: 30px;
+    border-radius: 25px;
+    background-color: white;
+    border: none;
+    text-align: justify;
+}
+
+#panel-acerca2{
+    width: 500px;
+    margin: 30px;
+    border-radius: 25px;
+    background-color: white;
+    border: none;
+    text-align: justify;
+}
